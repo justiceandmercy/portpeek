@@ -1,0 +1,11 @@
+[project]
+name = "portpeek"
+version = "0.1.0"
+description = "Peek at processes listening on TCP ports."
+requires-python = ">=3.9"
+
+[project.scripts]
+portpeek = "portpeek:main"
+
+[tool.setuptools]
+py-modules = ["portpeek"]
